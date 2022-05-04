@@ -1,22 +1,19 @@
 ---
 # front matter tells Jekyll to process Liquid
 title: Awesome Jekyll
-layout: default
 number: 69
-random: random variable, brought by the layout!
+random: Random variable, brought by the front-matter.
 ---
 
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>{{ page.title }}</title>
-</head>
+  </head>
 
-<body>
-    <h1>{{ "Hello J!" | downcase }}</h1>
+  <body>
+    <h1>{{ "Hello World!" | downcase }}</h1>
     <h2>{{ page.number }}</h2>
-</body>
-
+  </body>
 </html>

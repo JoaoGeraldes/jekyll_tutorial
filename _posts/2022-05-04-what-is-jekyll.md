@@ -1,6 +1,5 @@
 ---
-layout: post
-author: jgeraldes
+author: ted
 ---
 
 Jekyll is a static site generator. Written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open source MIT license.
